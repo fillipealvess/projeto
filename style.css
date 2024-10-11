@@ -30,14 +30,30 @@ header, footer {
     justify-content: flex-start;
     background-color: #fc6998; 
     color: white;
-}
-
-#logo{
-    width: 4rem;
-    height: 4rem;
+    gap: 2rem;
     
 }
 
+header > div{
+    width: 7vh;
+    height: 7vh;
+}
+
+#texto{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto > p {
+    margin: 0%;
+    padding: 0%;
+}
+
+#logo{
+    margin-left: 2rem;
+}
 #logo > img{
     width: 100%;
     border-radius: 50%;
@@ -75,9 +91,13 @@ header, footer {
     width: 100%;
 }
 
-.saude{
-    width: 2rem;
-    height: 2rem;
+.imgModal{
+    width: 4rem;
+    height: 4rem;
+}
+
+.imgModal > img {
+    width: 100%;
 }
 
 .modal-body{
@@ -94,6 +114,7 @@ header, footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
 }
 
 @media screen and (max-width: 537px){
