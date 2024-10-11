@@ -14,6 +14,7 @@ body {
 
 main {
     width: 100vw;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,21 +27,32 @@ header, footer {
     height: 8vh; 
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #00796b; 
+    justify-content: flex-start;
+    background-color: #fc6998; 
     color: white;
+}
+
+#logo{
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+#logo > img{
+    width: 100%;
+    border-radius: 50%;
 }
 
 #container {
     width: 90vw;
     height: 80vh;
-    background-color: #d55179;
-    
+    background-color: #fa8fb1e9;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     flex-wrap: wrap;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.817);
    
 }
 
