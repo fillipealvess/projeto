@@ -40,6 +40,7 @@ main {
    
 }
 
+
 .container-info{
     display: flex;
     flex-direction: row;
@@ -140,6 +141,7 @@ main {
 
     .box > p{
         font-size: 15px;
+       
     }
 
     .container-info{
@@ -168,4 +170,27 @@ main {
         max-height: 100%;
     }
    
+}
+
+@media screen and (max-width: 400px) {
+    body{
+        font-size: 15px;
+    }
+    #titulo{
+        height: 20%;
+        max-height: 20%;
+    }
+    .container-info{
+        height: 40%;
+        max-height: 40%;
+    }
+    #rodape{
+        height: 20%;
+        max-height: 20%;
+        max-width: 100%;
+    }
+    .box > p{
+        height: 1rem;
+        font-size: 0.5rem;
+    }
 }
