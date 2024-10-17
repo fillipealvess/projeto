@@ -30,11 +30,11 @@ header, footer {
     justify-content: flex-start;
     background-color: #fc6998; 
     color: white;
-    gap: 2rem;
+    gap: 0.5rem;
     
 }
 
-header > div{
+header > #logo{
     width: 7vh;
     height: 7vh;
 }
@@ -136,30 +136,45 @@ header > div{
     max-height: 100%;
 }
 
-.imgModal{
-    width: 4rem;
-    height: 4rem;
+.imgModal {
+    width: 100%;
+    height: 100px; 
 }
 
 .imgModal > img {
-    width: 100%;
+    width: auto; 
+    max-height: 100%; 
 }
 
-.modal-body{
+.modal-body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start; 
     justify-content: center;
-    gap: 4vw;
 }
 
-.area{
+.area {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start; 
+    width: 30%;
+    max-width: 30%;
+    height: auto; 
+}
+
+.area > p {
+    font-size: 10px;
+    margin: 0;
+    text-align: center; 
+    height: auto; 
+}
+
+.area > .imgModal {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 1rem;
 }
 
 
