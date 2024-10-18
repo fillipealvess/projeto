@@ -94,8 +94,7 @@ header > #logo{
 .box > .icon{
     height: 10vh;
     max-height: 10vh;
-    width: 10vw;
-    max-width: 10vw;
+    width: auto;
 }
 
 .icon > img{
@@ -175,6 +174,15 @@ header > #logo{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 450px){
+    .box > .icon{ 
+        height: 10vh; 
+        max-height: 10vh; 
+        width: 20vw; 
+        max-width: 20vw; 
+    } 
 }
 
 
